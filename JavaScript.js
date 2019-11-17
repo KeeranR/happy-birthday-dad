@@ -81,7 +81,7 @@
           answers: {
               a: "1970 Chevorlet Camero",
               b: "1973 Reliant Robin",
-              c: "1969 Beaumont"
+              c: "1969 Pontiac Beaumont"
           },
           correctAnswer: "c"
       },
@@ -116,14 +116,15 @@
        {
            question: "What is his favorite drink?",
            answers: {
-               a: "orange juice",
-               b: "chocolate milk",
-               c: "apple juice"
+               a: "Orange juice",
+               b: "Chocolate milk",
+               c: "Apple juice",
+               d: "Water"
            },
-           correctAnswer: "b"
+           correctAnswer: "d"
        },
        {
-           question: "When did Kevin meet my mom.",
+           question: "When did Kevin meet my mom?",
            answers: {
                a: "October 1998",
                b: "October 1999",
@@ -131,20 +132,34 @@
            },
            correctAnswer: "a"
        },
+       
+       {
+           question: "What's dads favorite dessert?",
+           answers: {
+               a: "Ice Cream",
+               b: "Cheese Cake",
+               c: "Chocolate Cake",
+               d: "Apple Pie",
+               e: "Bonus Question! Birthday Cake"
+           },
+           correctAnswer: "d"
+       },
 
        {
-           question: "Is you a glass maka?",
+           question: "Whats dads favorite car movie?",
            answers: {
-               a: "Yes",
-               b: "No",
-               c: "Maybe"
+               a: "Corvette Summer",
+               b: "Italian Job",
+               c: "Herbie the love bug"
            },
-           correctAnswer: "b"
+           correctAnswer: "a"
        },
+
+
     ];
 
     // Displays the quiz
-    buildQuiz(); 
+    buildQuiz();
 
     // When submit is clicked, it will show the results
     submitButton.addEventListener("click", showResults);
