@@ -119,9 +119,11 @@
                a: "Orange juice",
                b: "Chocolate milk",
                c: "Apple juice",
-               d: "Water"
+               d: "Water",
+               e: "Vodka"
            },
-           correctAnswer: "d"
+           correctAnswer: "d",
+           correctAnswer: "e"
        },
        {
            question: "When did Kevin meet my mom?",
@@ -132,7 +134,7 @@
            },
            correctAnswer: "a"
        },
-       
+
        {
            question: "What's dads favorite dessert?",
            answers: {
@@ -142,7 +144,7 @@
                d: "Apple Pie",
                e: "Bonus Question! Birthday Cake"
            },
-           correctAnswer: "d"
+           correctAnswer: "b"
        },
 
        {
@@ -154,7 +156,6 @@
            },
            correctAnswer: "a"
        },
-
 
     ];
 

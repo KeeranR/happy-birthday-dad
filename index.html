@@ -6,6 +6,42 @@
 
     <meta charset="utf-8" />
     <style>
+        h1 {
+            padding: 24px;
+            background-color: #83B8EA;
+            background-repeat: no-repeat;
+            font-size: 22px;
+            border: 5px solid black;
+        }
+
+        .typewriter h1 {
+            color: #fff;
+            /*border-right: .15em solid orange;*/
+            white-space: nowrap;
+            margin: 0 auto;
+            animation: typing 3s steps(4000, end), blink-caret .5s step-end infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0%;
+            }
+
+            to {
+                width: 100%;
+            }
+        }
+
+        /*@keyframes blink-caret {
+            from, to {
+                border-color: transparent;
+            }
+
+            10% {
+                border-color: orange;
+            }
+        }*/
+
         body {
             font-size: 20px;
             font-family: sans-serif;
@@ -159,9 +195,9 @@
         <li class="dropdown">
             <a href="family.html" class="dropbtn">Family</a>
             <div class="dropdown-content">
-                <a href="#">Preparing for Betrayal</a>
-                <a href="#">Falling Apart</a>
-                <a href="#">Petty</a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
             </div>
         </li>
         <!--<li><a href="doggos.html">Doggos</a></li>-->
@@ -174,7 +210,7 @@
     <script>
         function myFunction() {
             var txt;
-            var person = prompt("Please enter your name:", "Harry Potter");
+            var person = prompt("Please enter your name:", "");
             if (person == null || person == "") {
                 txt = "User cancelled the prompt.";
             } else {
@@ -184,8 +220,13 @@
         }
     </script>
 
-    <script src="JavaScripts.js"></script>
-    <h1>50th Birthday Quiz</h1>
+
+    <script src="JavaScript.js"></script>
+
+    <div class="typewriter">
+        <h1 style="text-align:center" >50th Birthday Quiz</h1>
+    </div>
+
 
 
 
